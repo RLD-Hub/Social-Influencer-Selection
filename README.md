@@ -19,14 +19,14 @@ In particular for the 2018 Russian elections database, we used our code to obtai
 3. "Participation ratios_Max min utility function": A text file containing vectors of the form: _[Budget, UserID, Participation ratio]_ which represents that the user with  _UserID_ joins in the campaign of _Budget_ [EUR/day] with a _Participation ratio_  in order to maximize our campaign following a max min fairness criterion (max min function).
 
 
-4. "Linear utility function":  A text file which represents the different metrics obtained maximizing a linear utility function as campaign objective and that containing vectors of the form: _[Budget, Impressions, Logarithmic utility function, Max-min utility function, Number of influencers, Number of Macro-influencers, Number of Micro-influencers, Number of Nano-influencers, Reach of campaing ε=0, Reach of campaing ε=\delta]._ 
+4. "Linear utility function":  A text file which represents the different metrics obtained maximizing a linear utility function as campaign objective and that containing vectors of the form: _[Budget, Impressions, Logarithmic utility function, Max-min utility function, Number of influencers, Number of Macro-influencers, Number of Micro-influencers, Number of Nano-influencers, Reach of campaing ε=0, Reach of campaing ε=δ]._ 
 
 
 
-5. "Log utility function":  A text file which represents the different metrics obtained maximizing a proportional fairness criterion as campaign objective and that containing vectors of the form: _[Budget, Impressions, Logarithmic utility function, Max-min utility function, Number of influencers, Number of Macro-influencers, Number of Micro-influencers, Number of Nano-influencers, Reach of campaing ε=0, Reach of campaing ε=\delta]._ 
+5. "Log utility function":  A text file which represents the different metrics obtained maximizing a proportional fairness criterion as campaign objective and that containing vectors of the form: _[Budget, Impressions, Logarithmic utility function, Max-min utility function, Number of influencers, Number of Macro-influencers, Number of Micro-influencers, Number of Nano-influencers, Reach of campaing ε=0, Reach of campaing ε=δ]._ 
 
 
-6. "Max min utility function": A text file which represents the different metrics obtained maximizing a max min fairness criterion as campaign objective and that containing vectors of the form: _[Budget, Impressions, Logarithmic utility function, Max-min utility function, Number of influencers, Number of Macro-influencers, Number of Micro-influencers, Number of Nano-influencers, Reach of campaing ε=0, Reach of campaing ε=\delta]._ 
+6. "Max min utility function": A text file which represents the different metrics obtained maximizing a max min fairness criterion as campaign objective and that containing vectors of the form: _[Budget, Impressions, Logarithmic utility function, Max-min utility function, Number of influencers, Number of Macro-influencers, Number of Micro-influencers, Number of Nano-influencers, Reach of campaing ε=0, Reach of campaing ε=δ]._ 
 
 
 7. "Sub-linear convergence": A text file of the form: _[Number of iteration, Marginal growth of the objective function at each step]_ that replicates an example of our sub-linear convergence rate with a stopping criterion when the number of iterations reaches a maximum equal to 30, or when the infinite norm of solutions between iterations is less than 0.1\%.
