@@ -1,13 +1,13 @@
-# OSP-portfolio-optimization-problem
+# Social-Influencer-Selection
 This repository contains the code related to the papers
 
 - R. Lopez Dawn, A. Giovanidis - Social Influencer Selection by Budgeted Portfolio Optimization, WiOpt 2021.
 
 One can find here one Python notebook and seven text files:
 
-Notebook "Social Influencer Selection by Budgeted Portfolio Optimization": the notebook implements a sparse version of the social influencer selection for the $\alpha$-fairness utility functions. We evaluated the performance of our algorithms for various campaign objectives using information from the 2018 Russian elections database. The program is designed to take as input the Leader Graph and the posting and re-posting activity rates of all the users, that can be estimated by real-world traces. The code can solve for millions of users. 
+Notebook "Social Influencer Selection by Budgeted Portfolio Optimization": the notebook implements a sparse version of the social influencer selection for the α-fairness utility functions. We evaluated the performance of our algorithms for various campaign objectives using information from the 2018 Russian elections database. The program is designed to take as input the Leader Graph and the posting and re-posting activity rates of all the users, that can be estimated by real-world traces. The code can solve for millions of users. 
 
-In particular for the 2018 Russian elections database, we used our code to obtain the social influencer selection for a user with $15$ followers which is potentially a Micro-influencer (like many stores that provide services in a certain medium-populated area) for a diverse budget campaigns from one euro per day until 50,000 euros per day. We obtained the following text files:
+In particular for the 2018 Russian elections database, we used our code to obtain the social influencer selection for a user with 15 followers which is potentially a Micro-influencer (like many stores that provide services in a certain medium-populated area) for a diverse budget campaigns from one euro per day until 50,000 euros per day. We obtained the following text files:
 
 1. "Participation ratios_Linear function": A text file containing vectors of the form: _[Budget, UserID, Participation ratio]_ which represents that the user with  _UserID_ joins in the campaign of _Budget_ [EUR/day] with a _Participation ratio_ in order to maximize our campaign following a linear function.
 
