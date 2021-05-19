@@ -5,7 +5,7 @@ This repository contains the code related to the papers
 
 One can find here one Python notebook and seven text files:
 
-Notebook "Social Influencer Selection by Budgeted Portfolio Optimization": the notebook implements a sparse version of the social influencer selection for the α-fairness utility functions. We evaluated the performance of our algorithms for various campaign objectives using information from the 2018 Russian elections database. The program is designed to take as input the Leader Graph and the posting and re-posting activity rates of all the users, that can be estimated by real-world traces. The code can solve for millions of users. 
+Notebook "Social Influencer Selection by Budgeted Portfolio Optimization [GitHub]": the notebook implements a sparse version of the social influencer selection for the α-fairness utility functions. We evaluated the performance of our algorithms for various campaign objectives using information from the 2018 Russian elections database. The program is designed to take as input the Leader Graph and the posting and re-posting activity rates of all the users, that can be estimated by real-world traces. The code can solve for millions of users. 
 
 In particular for the 2018 Russian elections database, we used our code to obtain the social influencer selection for a user with 15 followers which is potentially a Micro-influencer (like many stores that provide services in a certain medium-populated area) for a diverse budget campaigns from one euro per day until 50,000 euros per day. We obtained the following text files:
 
